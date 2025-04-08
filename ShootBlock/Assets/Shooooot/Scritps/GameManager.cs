@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
             gameOverPanel_text_BestScore.text = bestScore.ToString();
         }
         //播放插屏广告
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("1d1b217a9hrn3ep439",
             () => {
                 Debug.LogError("--插屏广告完成--");
 
@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
     }
     public void ContinueGame()
     {
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("h3a23goj35prbfd6np",
             (bol) => {
                 if (bol)
                 {
